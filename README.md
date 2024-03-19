@@ -74,7 +74,7 @@ pre-commit install
 
 ~~~sh
 cd [repository]
-git submodule add https://github.com/[username]/[submodule]
+git submodule add https://github.com/[username]/[submodule].git
 git commit -m "add submodule"
 git push origin main
 ~~~
@@ -83,6 +83,7 @@ git push origin main
 > 自動で更新を取り込むことはない
 
 ~~~sh
+cd [repository]
 git submodule update --remote --recursive
 git commit -m "update submodule"
 git push origin main
@@ -91,5 +92,5 @@ git push origin main
 他のリポジトリを含んだリポジトリをクローンする場合
 
 ~~~sh
-git clone --recursive https://github.com/[username]/[repository]
+git clone --recursive https://github.com/[username]/[repository].git
 ~~~
