@@ -47,11 +47,20 @@ cd [repository]
 # あとは、上記と一緒かな？
 ~~~
 
+## LICENSE を作成
+
+- GITHUB でリポジトリを作成する際、`LICENSE` を選択できる。
+- GITHUB ファイルを追加する際、ファイル名を `LICENSE` とすると
+`Choose a license template` から選べる。 
+
 ## .gitignore を作成
 
 [gitignore.io](https://www.toptal.com/developers/gitignore) にアクセスして簡単に作成
 
-## [git commit 時に自動コードチェックと整形](https://blog.imind.jp/entry/2022/03/11/003534)
+## git commit 時に自動コードチェックと整形
+
+https://pre-commit.com/<br>
+https://blog.imind.jp/entry/2022/03/11/003534
 
 `git commit` 時に実行され、`pass` しないとコミットされない。
 vscode を使えない時に便利
